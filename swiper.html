@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html style="background-color: #;">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#">
+  <meta name="format-detection" content="telephone=yes">
+  <meta name="msapplication-tap-highlight" content="yes">
+  <title>Auto Slide Html-css-js swiper easy slider</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+ </head>
+
+
+
+
+
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+  </div>
+</div>
+<style>
+
+.swiper {
+  width: 350px;
+  height: 120px;
+  background-color:#c8c8c8;
+}
+.swiper-slide {
+	color:#000;
+	text-align:center;
+	top:37%;
+	font-size:20px;
+	
+}
+
+</style>
+
+
+
+</body>
+</html>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+speed: 450, //Swiper Speed
+slidesPerView: 1, //Slide that Show  I Recommend 1,
+autoplay: {
+    delay: 2500, //AutoSlide Speed
+  },
+});
+
+</script>
