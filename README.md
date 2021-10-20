@@ -8,3 +8,5 @@ its really easy to use .
 
 
 By Evallstore Thanks For Reading & Useing.
+Follow me for More:
+<a href="https://twitter.com/nextevall">Twitter</a>
